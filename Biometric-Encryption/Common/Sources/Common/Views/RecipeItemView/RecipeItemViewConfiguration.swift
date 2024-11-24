@@ -1,0 +1,24 @@
+//
+//  RecipeItemViewConfiguration.swift
+//  Recipes
+//
+//  Created by Lidor Fadida on 24/11/2024.
+//
+
+import Foundation
+
+public struct RecipeItemViewConfiguration {
+    public let name: String
+    public let fats: String
+    public let calories: String
+    public let carbos: String
+    public let image: String
+    
+    public init(name: String, fats: String, calories: String, carbos: String, image: String) {
+        self.name = name
+        self.fats = fats
+        self.calories = calories
+        self.carbos = carbos
+        self.image = image
+    }
+}

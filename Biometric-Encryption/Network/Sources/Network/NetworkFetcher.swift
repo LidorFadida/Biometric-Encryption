@@ -1,0 +1,12 @@
+//
+//  NetworkFetcher.swift
+//  Recipes
+//
+//  Created by Lidor Fadida on 24/11/2024.
+//
+
+import UIKit
+
+public protocol NetworkFetcher {
+    func fetch<T: Decodable>(from url: URL) async throws -> T
+}
